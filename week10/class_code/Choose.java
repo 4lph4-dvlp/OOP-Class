@@ -21,7 +21,8 @@ public class Choose {
 
     JLabel label = new JLabel("Choose Yes or No");
     /*
-     * panel을 따로 둔는 이유 : 그냥 buttonWrapper와 label모두를 단순 frame에 넣으면 컴포넌트들이 겹치기 때문이다.
+     * panel을 따로 둔는 이유 : 그냥 buttonWrapper와 label모두를 단순 frame의 ContentPane에 직접적으로 넣으면
+     * 컴포넌트들이 겹치기 때문이다.
      */
     panel.setBackground(Color.yellow);
     panel.add(buttonWrapper);
